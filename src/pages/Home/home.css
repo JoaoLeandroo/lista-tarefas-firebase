@@ -1,0 +1,79 @@
+.home--container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fliptittle 2s;
+}
+
+@keyframes fliptittle {
+    from {
+        transform: rotateX(90deg)
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+.home--container h1 {
+    font-size: 48px;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 2px var(--primaryBlack);
+}
+
+
+.home--container span {
+    margin-bottom: 28px;
+}
+
+.home--form {
+    width: 80%;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.home--form input {
+    background-color: var(--primaryGray);
+    border: none;
+    font-size: 18px;
+    margin-bottom: 12px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+
+.home--form input:focus {
+    outline: 2px solid var(--primaryWhite);
+}
+
+.home--form button {
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+.home--form button:hover {
+    background-color: var(--secundaryBlue);
+    color: var(--primaryWhite);
+
+}
+
+.home--button-register {
+    margin-top: 15px;
+    color: var(--primaryWhite);
+    transition: color 0.2s ease;
+}
+
+.home--button-register:hover {
+    color: var(--primaryBlue);
+}
