@@ -22,7 +22,7 @@ export default function Home() {
                 toast.success("Usuario Logado com sucesso")
             })
             .cath(() => {
-                toast.warn("FALHA AO LOGAR")
+                toast.error("FALHA AO LOGAR")
                 setEmail('')
                 setPassword('')
             })
@@ -37,7 +37,7 @@ export default function Home() {
             <h1>Lista de Tarefas</h1>
             <span>Gerencie sua agenda de forma fácil.</span>
 
-            <form className='home--form' onSubmit={handleLogin}>
+            <form className='form' onSubmit={handleLogin}>
                 <input
                 type="text"
                 placeholder='Informe seu e-mail'

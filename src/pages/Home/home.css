@@ -29,15 +29,15 @@
     margin-bottom: 28px;
 }
 
-.home--form {
-    width: 80%;
+.form {
+    width: 70%;
     max-width: 600px;
 
     display: flex;
     flex-direction: column;
 }
 
-.home--form input {
+.form input {
     background-color: var(--primaryGray);
     border: none;
     font-size: 18px;
@@ -47,11 +47,11 @@
     padding: 0 8px;
 }
 
-.home--form input:focus {
+.form input:focus {
     outline: 2px solid var(--primaryWhite);
 }
 
-.home--form button {
+.form button {
     width: 50%;
     margin: 0 auto;
     height: 40px;
@@ -62,7 +62,7 @@
     transition: all 0.2s ease;
 }
 
-.home--form button:hover {
+.form button:hover {
     background-color: var(--secundaryBlue);
     color: var(--primaryWhite);
 
@@ -75,5 +75,5 @@
 }
 
 .home--button-register:hover {
-    color: var(--primaryBlue);
+    color: var(--secundaryBlue);
 }

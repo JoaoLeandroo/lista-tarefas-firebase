@@ -38,7 +38,7 @@ export default function Register() {
             <h1>Cadastre-se</h1>
             {/* <span>Gerencie sua agenda de forma fácil.</span> */}
 
-            <form className='home--form' onSubmit={handleRegister}>
+            <form className='form' onSubmit={handleRegister}>
                 <input
                 type="text"
                 placeholder='Informe seu e-mail'

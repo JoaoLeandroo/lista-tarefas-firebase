@@ -15,12 +15,17 @@
   --secundaryBlue: #01DFA5;
   --primaryBlack: #000000;
   --primaryGray: #D8D8D8;
+  --secundaryGray: #848484;
+  --primaryRed: #FF0000;
+  --secundaryRed: #FE2E64;
+  --primaryGreen: #00FF00;
+  --secundaryGreen: #2EFE64;
 }
 
 html, body {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, var(--primaryBlue), var(--secundaryBlue));
+  background-color: var(--primaryBlue);
   color: var(--primaryWhite);
 }
 
